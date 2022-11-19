@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Taprom&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: Montserrat;
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #95B8D1;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    padding: 0;
+    width: 60%;
+    font-size: 10vh;
+    font-family: Taprom;
+    text-align: center;
+    color: #021842;
+    margin: 0 auto;
+}
+
+.nav-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 5vw;
+    background-color: rgba(63, 136, 197, 0.35);
+    color: #021842;
+    padding: 2vh 1vw;
+}
+
+.nav-wrapper a {
+    color: #021842;
+    font-weight: bold;
+    font-size: 4vh;
+}
+
+.nav-labels {
+    border: 3px solid #021842;
+    padding: 10px 20px;
+    border-radius: 1.5vh;
+    background: #00bbd1;
+}
+section {
+    text-align: center;
+}
+
+.section-title {
+    font-family: Taprom;
+    color: #021842;
+    font-size: 9vh;
+    text-decoration: underline;
+}
+
+.main-info {
+    font-size: 4.5vh;
+    width: 65%;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+footer {
+    background-color: rgba(0, 102, 255, 0.45);
+    text-align: center;
+    margin-top: auto;
+    color: #021842;
+}
+
+.final-title {
+    margin: 2vh;
+    font-size: 7vh;
+    font-family: Taprom;
+}

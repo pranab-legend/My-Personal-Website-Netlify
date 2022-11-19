@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(45deg, #00bcc0, #00ccd3);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.title {
+    text-align: center;
+    font-family: Roboto;
+    font-size: 10vh;
+    color: darkblue;
+}
+
+.list-wrapper {
+    width: fit-content !important;
+    margin: 0 auto;
+}
+
+.list {
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 5vh;
+}
+
+li {
+    color: darkblue !important;
+}
+
+a {
+    color: darkblue !important;
+    margin: 0;
+    text-decoration: none;
+}
+
+footer {
+    margin-top: auto;
+}
+
+.final-title {
+    text-align: center;
+    font-family: Roboto;
+    color: darkblue;
+    font-size: 6vh;
+}
+
+a:hover {
+    text-decoration: underline !important;
+}
+

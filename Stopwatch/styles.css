@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Taprom&display=swap');
+
+* {
+    box-sizing: border-box;
+    text-align: center !important;
+    font-family: Nunito Sans !important;
+    color: darkblue;
+    border-color: darkblue !important;
+    font-weight: bold !important;
+}
+
+:root {
+    --gradient: linear-gradient(to right, 
+    #2AF598,
+    #22E4AC,
+    #1BD7BB,
+    #14C9CB,
+    #0FBED8,
+    #08B3E5
+    );
+
+    --gradient-reversed: linear-gradient(to right, 
+    #08B3E5,
+    #0FBED8,
+    #14C9CB,
+    #1BD7BB,
+    #22E4AC,
+    #2AF598
+    );
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: var(--gradient);
+    background-size: 300%;
+    animation: bg-animation 15s infinite alternate;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+@keyframes bg-animation {
+    0% {background-position: left;}
+    100% {background-position: right;}
+}
+
+.title {
+    margin: 0;
+    font-size: 14vh;
+    margin-top: 4vh;
+    margin-bottom: 6vh;
+    vertical-align: middle;
+}
+
+.time {
+    padding: 0;
+    margin: 0 auto;
+    font-size: 11vh;
+    margin-top: 4vh;
+    margin-bottom: 10vh;
+    vertical-align: middle;
+    border: 0.75px solid darkblue;
+    border-radius: 2vh;
+    width: fit-content !important;
+    padding: 0.25vh 1vw !important;
+    background-image: var(--gradient-reversed) !important;
+    background-size: 300% !important;
+    animation: btn-bg-anime 15s infinite alternate; 
+}
+
+.options-wrapper {
+    width: 35%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 6vh;
+}
+
+.btn {
+    width: fit-content !important;
+    font-size: 7vh;
+    padding: 1vh 1vw;
+    border-radius: 2vh;
+    cursor: pointer;
+    transition: box-shadow 0.5s ease;
+    display: block;
+    background-image: var(--gradient-reversed) !important;
+    background-size: 300% !important;
+    animation: btn-bg-anime 15s infinite alternate; 
+}
+
+.btn:hover {
+    font-size: 7.25vh;
+    box-shadow: 0px 0px 20px #2AF598 !important;
+}
+
+.btn:active {
+    font-size: 5.9vh;
+    padding: 0.9vh 0.9vw;
+}
+
+#reset-btn{
+    display: none;
+}
+
+footer {
+    margin: 0;
+    margin-top: auto;
+    text-align: center;
+    background: var(--gradient-reversed);
+    background-size: 300%;
+    animation: btn-bg-anime 15s infinite alternate;
+    border-top: 2px solid darkblue;
+}
+
+@keyframes btn-bg-anime {
+    0% {background-position: left;}
+    100% {background-position: right;}
+}
+  
+.final-title {
+    font-size: 8vh;
+    font-family: Taprom !important;
+}
+  
+a {
+    text-decoration: none;
+    color: darkblue;
+}
+  
+a:hover {
+    text-decoration: underline;
+}
+

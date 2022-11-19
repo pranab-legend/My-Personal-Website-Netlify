@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
+        <script src="script.js" defer></script>
+        <title>Rock, Paper Scissors!</title>
+    </head>
+    <body>
+        <audio src="./assets/rock.mp3" id="rock"></audio>
+        <audio src="./assets/paper.wav" id="paper"></audio>
+        <audio src="./assets/scissors.mp3" id="scissors"></audio>
+        <audio src="./assets/1.mp3" id="1"></audio>
+        <audio src="./assets/2.mp3" id="2"></audio>
+        <audio src="./assets/3.mp3" id="3"></audio>
+        <audio src="./assets/shoot.mp3" id="shoot"></audio>
+        <h1 class="title">Rock Paper Scissors</h1>
+        <div class="countdown-wrapper">
+            <h1 class="countdown-title">Countdown:</h1>
+            <p id="countdown">You haven't started the game so there is no countdown yet</p>
+        </div>
+        <div class="container">
+            <div class="you-wrapper">
+                <h1 class="you-title">You</h1>
+                <div id="choose-wrapper" class="choose-wrapper">
+                    <span class="img-selector" data-option>
+                        <h5>Rock</h5>
+                        <img src="https://media.istockphoto.com/photos/rock-on-white-background-picture-id882081240?k=20&m=882081240&s=612x612&w=0&h=CGnPII82EG0xGLnGbGnHpoOc1xna1pF7jN33Pcafa5o=" width="50px">
+                    </span>
+                    <span class="img-selector" data-option>
+                        <h5>Paper</h5>
+                        <img src="https://www.collinsdictionary.com/images/full/paper_111691001.jpg" width="50px">
+                    </span>
+                    <span class="img-selector" data-option>
+                        <h5>Scissors</h5>
+                        <img src="https://www.collinsdictionary.com/images/full/scissors_100136453.jpg" width="50px">
+                    </span>
+                </div>
+                <div class="chosen-wrapper" id="chosen-wrapper">
+                    <div id="chose-rock">
+                        <h1 class="chosen-title">You chose rock!</h1>
+                        <img src="https://media.istockphoto.com/photos/rock-on-white-background-picture-id882081240?k=20&m=882081240&s=612x612&w=0&h=CGnPII82EG0xGLnGbGnHpoOc1xna1pF7jN33Pcafa5o=" width="300px">
+                    </div>
+                    <div id="chose-paper">
+                        <h1 class="chosen-title">You chose paper!</h1>
+                        <img src="https://www.collinsdictionary.com/images/full/paper_111691001.jpg" width="300px">
+                    </div>
+                    <div id="chose-scissors">
+                        <h1 class="chosen-title">You chose scissors!</h1>
+                        <img src="https://www.collinsdictionary.com/images/full/scissors_100136453.jpg" width="300px">
+                    </div>
+                </div>
+            </div>
+            <button id="btn">Start Game</button>
+            <button id="btn1">Reset Game</button>
+            <div class="computer-wrapper">
+                <h1 class="computer-title">Computer</h1>
+                <div class="choose-wrapper">
+                    <span class="img-selector1">
+                        <h5>Rock</h5>
+                        <img src="https://media.istockphoto.com/photos/rock-on-white-background-picture-id882081240?k=20&m=882081240&s=612x612&w=0&h=CGnPII82EG0xGLnGbGnHpoOc1xna1pF7jN33Pcafa5o=" width="50px">
+                    </span>
+                    <span class="img-selector1">
+                        <h5>Paper</h5>
+                        <img src="https://www.collinsdictionary.com/images/full/paper_111691001.jpg" width="50px">
+                    </span>
+                    <span class="img-selector1">
+                        <h5>Scissors</h5>
+                        <img src="https://www.collinsdictionary.com/images/full/scissors_100136453.jpg" width="50px">
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="result-wrapper">
+            <h1 class="result-title">Result</h1>
+            <p id="result">Start a game to get results!</p>
+            <p id="you-picked"></p>
+        </div>
+        <footer>
+            <h1 class="final-title"><a href="../my_projects.html" target="_blank">To find my other projects click here!</a></h1>
+        </footer>
+    </body>
+</html>

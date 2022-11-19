@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Taprom&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: Montserrat;
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #95B8D1;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    padding: 0;
+    width: 60%;
+    font-size: 10vh;
+    font-family: Taprom;
+    text-align: center;
+    color: #021842;
+    margin: 0 auto;
+}
+
+.nav-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 5vw;
+    background-color: rgba(63, 136, 197, 0.35);
+    color: #021842;
+    padding: 2vh 1vw;
+}
+
+a {
+    color: #021842;
+}
+
+.nav-wrapper a {
+    color: #021842;
+    font-weight: bold;
+    font-size: 4vh;
+}
+
+.nav-labels {
+    border: 3px solid #021842;
+    padding: 10px 20px;
+    border-radius: 1.5vh;
+    background: #00bbd1;
+}
+
+section {
+    text-align: center;
+    margin-bottom: 10vh;
+}
+
+.info-title {
+    color: #021842;
+    font-family: Taprom;
+    font-size: 8vh;
+    margin: 0;
+    margin-top: 1.5vh;
+    margin-bottom: 4.5vh;
+    text-decoration: underline;
+}
+
+ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.projects-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15vw;
+    margin-bottom: 1vh;
+}
+
+.projects-wrapper div {
+    border: 3px solid #021842;
+    border-radius: 2vh;
+    padding: 10px;
+    width: 35%;
+    text-align: center;
+    background: rgb(0, 187, 209);
+}
+
+.project-title {
+    margin: 0;
+    margin-top: 1vh;
+    margin-bottom: 1.5vh;
+    font-size: 6.5vh;
+    font-family: Taprom;
+    text-decoration: underline;
+    color: #021842;
+}
+
+div ol {
+    margin-top: 1vh;
+    margin-left: 1vw;
+    text-align: left;
+}
+
+div ol li {
+    font-weight: bold;
+    font-size: 3.5vh;
+    margin-bottom: 1vh;
+    color: #021842;
+}
+
+footer {
+    background-color: rgba(0, 102, 255, 0.45);
+    text-align: center;
+    margin-top: auto;
+    color: #0A2E36;
+}
+
+
+.final-title {
+    margin: 2vh;
+    font-size: 7vh;
+    font-family: Taprom;
+}

@@ -1,0 +1,18 @@
+.sub-title-1
+{
+    color: darkblue;
+}
+
+body {
+    background: linear-gradient(to right, lightblue, cyan);
+    font-family: Montserrat !important;
+}
+
+ul {
+    color: darkblue;
+}
+
+a {
+    text-decoration: underline;
+    color: darkblue !important;
+}

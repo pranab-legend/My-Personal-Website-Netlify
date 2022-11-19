@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&family=Taprom&display=swap');
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:t top;
+}
+/*MY CODE*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Taprom&display=swap');
+
+* {
+    font-family: Montserrat, sans-serif;
+}
+
+body {
+    text-align: center;
+    color: darkblue;
+    font-family: Montserrat, Sans-Serif;
+    background-image: url(./assets/backgroundimagetwo.jpg);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.title {
+    font-size: 13vh;
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+    font-weight: bold;
+}
+
+.how-to-container {
+    color: darkblue;
+    text-align: center;
+    border-style: solid;
+    background-color: #6dc9cc;
+    width: 45%;
+    margin: 0px auto;
+    border-radius: 3vh;
+    margin-bottom: 13vh; 
+    border-color: darkblue;
+    border-width: 4px;
+    padding: 5vh 3vw;
+}
+
+.how-to-title {
+    font-size: 6.5vh;
+    margin-bottom: 3.5vh;
+}
+  
+.how-to-use {
+    font-size: 4vh;
+}
+
+.input-area {
+    text-align: center;
+    border-style: solid;
+    padding: 6vh 0vw;
+    width: 45%;
+    margin: 0px auto;
+    border-radius: 3vh;
+    margin-bottom: 13vh;
+    background-color: #016064;
+    border-color: darkblue;
+    border-width: 4px;
+}
+
+.calculator-problem {
+    font-size: 6vh;
+    font-family: Montserrat, sans-serif;
+    color: darkblue;
+    background-color: lightcyan;
+    margin-bottom: 7vh;
+    width: 11vw;
+    background-color: cyan;
+    border-color: darkblue;
+    border-width: 3px;
+    border-radius: 10px;
+}
+
+.calculator-problem:hover {
+    background-color: #0096B4;
+}
+
+select {
+    font-size: 6vh;
+    margin: 1vh 4vh;
+    background-color: cyan;
+    color: darkblue;
+    border-color: darkblue;
+    border-width: 3px;
+    border-radius: 2vh;
+}
+
+select:hover {
+    background-color: #0096B4;
+}
+
+.enter-btn {
+    font-size: 6vh;
+    font-family: Montserrat, sans-serif;
+    color: darkblue;
+    background-color: cyan;
+    border-radius: 2.5vh;
+    padding: 1vh 1vw;
+    border-color: darkblue;
+    border-width: 4px;
+    font-weight: bold;
+}
+
+.enter-btn:hover {
+    background-color: #0096B4;
+} 
+
+.enter-btn:active {
+    font-size: 5.5vh;
+    width: 21%;
+    height: 12%;
+}
+
+.result {
+    border-style: solid;
+    font-size: 4.5vh;
+    border-width: 4px;
+    border-radius: 3vh;
+    border-color: darkblue;
+    color: darkblue;
+    width: 42%;
+    margin: 0px auto;
+    background-color: #016064;
+    padding: 3vh 2.5vw;
+    margin-bottom: 10vh;
+}
+
+.result-title {
+    font-size: 7vh;
+    margin-bottom: 3.5vh;
+}
+
+footer {
+    margin: 0;
+    margin-top: auto;
+    text-align: center;
+    padding: 3vh 2vw;
+    background-color:rgb(114, 153, 212);
+}
+  
+.final-title {
+    font-size: 8vh;
+    font-family: Taprom !important;
+}
+  
+a {
+    text-decoration: none;
+    color: darkblue;
+}
+  
+a:hover {
+    text-decoration: underline;
+}
+  
+

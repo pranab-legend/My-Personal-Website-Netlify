@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Rapid Fire Calculator</title>
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+            <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+            <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+            <link rel="shortcut icon" type="image/png" href="./assets/favicon.png">
+            <link rel="stylesheet" href="./styles.css">
+        </head>
+        <body>
+            <h1 class="title">Rapid Fire Calculator</h1>
+            <div class="how-to-container">
+                <h2 class="how-to-title">How to Use The Calculator</h2>
+                <p class="how-to-use">
+                    <b>
+                    To Add use the plus sign "+"
+                    <br>
+                    <br>
+                    To Subtract use the minus sign "-"     
+                    <br>
+                    <br>
+                    To Multiply us the astrisk sign "*"
+                    <br>
+                    <br>
+                    To Divide use the forward slash sign "/"
+                    <br>
+                    <br>
+                    To Find the Remainder use the percent sign "%"
+                    </b>
+                </p>
+            </div>
+            <div class="input-area">
+                <input class="calculator-problem" placeholder="Enter Math Problem" type="number" id = "numtext1"></input>
+                <select name="operationabillion" id="operation">
+                    <option value="+">+</option>
+                    <option value="-">-</option>
+                    <option value="*">*</option>
+                    <option value="/">/</option>
+                    <option value="%">%</option>
+                </select>
+                <input type="number" class="calculator-problem" placeholder="Enter Math Problem" id = "numtext2"></input>
+                <br>
+                <button class="enter-btn" id="enter-btn">Enter</button>
+            </div>
+            <div class="result">
+                <h2 class="result-title">Result</h2>
+                <b><span id="result-label">Enter a math problem for some results!</span></b>
+            </div>
+            <footer>
+                <h1 class="final-title"><a href="../my_projects.html" target="_blank">To check out my other projects click here!</a></h1>
+            </footer>
+            <script src="./script.js"></script>
+        </body>
+    </html>

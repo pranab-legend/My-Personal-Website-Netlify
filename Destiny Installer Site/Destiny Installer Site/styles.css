@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-family: Roboto !important;
+    color: darkblue;
+    background: linear-gradient(to right, cyan, aquamarine);
+}
+
+.title {
+    margin: 0;
+    text-align: center;
+    font-size: 12vh;
+    margin-top: 4vh;
+    margin-bottom: 16vh;
+}
+
+.download-wrapper {
+    width: fit-content !important;
+    margin: 0 auto;
+    display: flex;
+    gap: 4vw;
+}
+
+.btn {
+    color: darkblue !important;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 5vh;
+    background: rgb(0, 136, 255);
+    padding: 1vh 1vw;
+    text-decoration: none;
+    border: 2px solid darkblue;
+}
