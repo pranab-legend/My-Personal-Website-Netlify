@@ -48,7 +48,15 @@ body {
     padding: 10px 20px;
     border-radius: 1.5vh;
     background: #00bbd1;
+    transition: background 0.3s, transform 0.3s;
 }
+
+.nav-labels:hover {
+    background-color: #98e6fa;
+    transform: translate(2px, -3px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
 section {
     text-align: center;
 }

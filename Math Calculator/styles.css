@@ -166,10 +166,13 @@ body {
     border-color: darkblue;
     border-width: 3px;
     border-radius: 10px;
+    transition: background 0.3s, transform 0.3s;
 }
 
 .calculator-problem:hover {
-    background-color: #0096B4;
+    background-color: #98e6fa;
+    transform: translate(2px, -3px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 select {
@@ -180,10 +183,13 @@ select {
     border-color: darkblue;
     border-width: 3px;
     border-radius: 2vh;
+    transition: background 0.3s, transform 0.3s;
 }
 
 select:hover {
-    background-color: #0096B4;
+    background-color: #98e6fa;
+    transform: translate(2px, -3px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .enter-btn {
@@ -196,10 +202,13 @@ select:hover {
     border-color: darkblue;
     border-width: 4px;
     font-weight: bold;
+    transition: background 0.3s, transform 0.3s;
 }
 
 .enter-btn:hover {
-    background-color: #0096B4;
+    background-color: #98e6fa;
+    transform: translate(2px, -3px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 } 
 
 .enter-btn:active {
