@@ -39,6 +39,8 @@ body {
 
 a {
     color: #021842;
+    display: block;
+    width: 100%;
 }
 
 .nav-wrapper a {
@@ -76,7 +78,7 @@ section {
     text-decoration: underline;
 }
 
-ol {
+ul {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -109,13 +111,13 @@ ol {
     color: #021842;
 }
 
-div ol {
+div ul {
     margin-top: 1vh;
     margin-left: 1vw;
     text-align: left;
 }
 
-div ol li {
+div ul li {
     font-weight: bold;
     font-size: 3.5vh;
     margin-bottom: 1vh;
@@ -125,7 +127,7 @@ div ol li {
     border-radius: 0.5rem;
 }
 
-div ol li:hover {
+div ul li:hover {
     background-color: #98e6fa;
     transform: translate(2px, -5px);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);

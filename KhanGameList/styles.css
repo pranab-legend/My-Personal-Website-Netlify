@@ -34,14 +34,24 @@ body {
     font-size: 5vh;
 }
 
-li {
+div ul li {
     color: darkblue !important;
+    transition: background 0.3s, transform 0.3s;
+    border-radius: 0.5rem;
+}
+
+div ul li:hover {
+    background-color: #98e6fa;
+    transform: translate(2px, -5px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 a {
     color: darkblue !important;
     margin: 0;
     text-decoration: none;
+    display: block;
+    width: 100%;
 }
 
 footer {

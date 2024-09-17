@@ -119,6 +119,10 @@ button:active {
    font-size: 3.5vh;
    margin-bottom: 1.5vh;
 }
+
+.img-selector > h5 {
+   transition:font-size 1s;
+}
  
 .img-selector:hover {
    cursor: pointer;
